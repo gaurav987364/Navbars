@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 128, 114, 0.712);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+    color: rgb(0, 0, 0);
+}
+.nav .logo{
+    font-size: 2vw;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+
+.menu-content{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.433);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 13vw 2vw;
+    transition: all 0.5s linear;
+}
+.menu-content h4{
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.menu-content i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1.5vw;
+    font-weight: 999;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 8px;
+}
+i{
+    cursor: pointer;
+}
